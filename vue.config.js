@@ -1,5 +1,4 @@
 const { defineConfig } = require('@vue/cli-service')
-const HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = defineConfig({
   transpileDependencies: true,
   chainWebpack: config => {
